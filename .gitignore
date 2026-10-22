@@ -1,6 +1,11 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# Local secrets and environment-specific settings
+.env
+.env.*
+!.env.example
 #
 .utmp/
 /[Ll]ibrary/
